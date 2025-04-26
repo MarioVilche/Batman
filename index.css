@@ -19,10 +19,17 @@ audio {
 
 .titulo {
     font-family: "Asul", serif;
-    font-weight: 400;
+    font-weight: 700;
     font-style: normal;
     background-color: #C4C4C4;
     color: #005677;
+    font-size: 20px;
+    padding: 5px;
+    letter-spacing: 5px;
+}
+
+#tituloPrincipal {
+    font-size: 35px;
 }
 
 section dd {
