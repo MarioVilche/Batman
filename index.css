@@ -4,6 +4,7 @@ body {
     font-family: 'Times New Roman', Times, serif;
     margin: 0;
     padding: 20px;
+    font-size: 15px;
 }
 
 header {
@@ -33,7 +34,7 @@ audio {
 }
 
 section dd {
-    text-indent: 40px;
+    text-indent: 35px;
 }
 
 .footer {
