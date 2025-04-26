@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Asul:wght@400;700&display=swap');
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    width: 100%;
+    background-color: #E6E6E6;
+}
+
+audio {
+    filter: invert(0.79) hue-rotate(180deg);
+    width: 100%;
+}
+
+.titulo {
+    font-family: "Asul", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #C4C4C4;
+    color: #005677;
+}
+
+section dd {
+    text-indent: 40px;
+}
+
+.footer {
+    width: 100%;
+    margin-top: 20px;
+    background-color: #005677;
+    color: white;
+}
+
+.footer section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+.footer img {
+    width: 20px;
+    height: 20px;
+}

@@ -4,60 +4,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
-    </style>
+    <link rel="stylesheet" href="/styles/index.css">
     <title>Curriculum de Bruce Wayne</title>
 </head>
 
-<body font-family="Lora, serif" style="margin: 0; padding: 20px;">
-    <header style="text-align: center;" width="100%">
-        <img src="Img/Batman.png" alt="Foto de Batman" width="100%">
-        <h1>CURRICULUM VITAE DE BRUCE WAYNE</h1>
+<body>
+    <header>
+        <img src="Img/Batman.png" alt="Foto de Batman">
+        <h1 class="titulo">CURRICULUM VITAE DE BRUCE WAYNE</h1>
     </header>
+
+    <audio controls>
+        <source src="src/batman-series-tv-.mp3" type="audio/mp3">
+    </audio>
+
     <section>
-        <h2>DATOS PERSONALES</h2>
+        <h2 class="titulo">DATOS PERSONALES</h2>
         <ul>
-            <li><b>Nombre completo: </b>Bruce Wayne</li>
-            <li><b>Fecha de nacimiento: </b>01/05/1939</li>
-            <li><b>Lugar de nacimiento: </b>Gotham City</li>
+            <li><strong><em>Nombre completo: </em></strong>Bruce Wayne</li>
+            <li><strong><em>Fecha de nacimiento: </em></strong>01/05/1939</li>
+            <li><strong><em>Lugar de nacimiento: </em></strong>Gotham City</li>
         </ul>
     </section>
     <section>
-        <h2>HABILIDADES</h2>
-        <ol>
-            <li>Volar en <a href="https://es.wikipedia.org/wiki/Batmobile">batimovil</a></li>
-            <li>Desaparecer <a href="https://dle.rae.es/misteriosamente">misteriosamente</a></li>
-            <li>Tener gadgets geniales</li>
-        </ol>
-    </section>
-    <section>
-        <h2>FORMACIÓN ACADEMICA</h2>
+        <h2 class="titulo">FORMACIÓN ACADÉMICA</h2>
         <dl>
-            <dt><b>1956-1961: </b>Universidad del espantapájaros</dt>
+            <dt><strong>1956-1961: </strong>Universidad del espantapájaros</dt>
             <dd>Licenciatura en aeronaútica</dd>
-            <dt><b>1952-1956: </b>Secundario Gotham</dt>
+            <dt><strong>1952-1956: </strong>Secundario Gotham</dt>
             <dd>Bachiller con especialización en trucos</dd>
         </dl>
     </section>
+
     <section>
-        <h2>EXPERIENCIA LABORAL</h2>
+        <h2 class="titulo">EXPERIENCIA LABORAL</h2>
         <dl>
-            <dt><b>1975-1985: </b>Desocupado</dt>
+            <dt><strong>1975-1985: </strong>Desocupado</dt>
             <dd>Sin trabajo porquer se me rompió el batimovil</dd>
-            <dt><b>1965-1975: </b>Cazavillanos y demás chusma</dt>
+            <dt><strong>1965-1975: </strong>Cazavillanos y demás chusma</dt>
             <dd>Atrapé a Gatubela a joker a Victor Fries lo dejé porque se me congeló la capa</dd>
-            <dt><b>1962-1965: </b>Aprendiz de superhéroes</dt>
+            <dt><strong>1962-1965: </strong>Aprendiz de superhéroes</dt>
             <dd>Hice pasantía con Superman. Opté por usar mascara porque no pude aprender a peinarme el rulo</dd>
         </dl>
     </section>
+
     <section>
-        <h2>REFERENCIAS</h2>
-        <P>Disponible bajo petición. ¡Pero asegúrate de que no sean del Joker!</P>
+        <h2 class="titulo">UBICACIÓN GOTHAM</h2>
+        <p>Proyecta una batiseñal en el cielo de Gotham e iré</p>
+
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.5972095494812!2d-73.95293652252649!3d40.7488877721366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25927e7a17327%3A0xa6910c46acbd624a!2sGotham%20City%20Collision!5e0!3m2!1ses-419!2sar!4v1745633801129!5m2!1ses-419!2sar"
+            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
     </section>
-    <footer style="text-align: center;">
-        <P><b>0810 - BATMAN</b></P>
+
+    <section>
+        <h2 class="titulo">TRAILER DE MI ULTIMA PELI</h2>
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/htzPR7W5ksI?si=FJsMm0mWKpbBuPTk"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+
+    <footer class="footer">
+        <section>
+            <span><strong>0810 - BATMAN</strong></span>
+            <img src="Img/logo_instagram.png" alt="logo de instagram">
+            <img src="Img/logo_linkedin.png" alt="logo de linkedin">
     </footer>
+
 </body>
 
 </html>
